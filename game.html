@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess and Win</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <!-- heading div -->
+    <div id="heading">
+        <!-- <marquee scrollamount="1" behavior="alternate" direction="left"><h1>This game is made for smart people and not for you!</h1></marquee> -->
+        <h1>GUESS THE NUMBER</h1>
+
+        <!-- <h2>Don't Play</h2> -->
+    </div>
+
+    <!-- main div -->
+<div id="maindiv">
+        <!-- form div -->
+    <div id="formresult">
+        <div style="text-align: center; margin-bottom: -30px;"><h3>Enter a number between 0 and 100</h3></div>
+        <div id="divfid">
+            <form action="#"  method="get">
+            <fieldset id="fid">
+                <legend><input type="button" onclick="myreload()" value="Refresh" id="refreshbutton"></legend>
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name"><br><br><br>
+                <label for="num" >Enter your guess</label>
+                <input type="number" id="num"><br><br><br>
+                <center><button onclick="myfunc()">Check</button></center>
+            </fieldset>
+            </form>
+        </div>
+        
+        <div id="Result">
+            <h1 id="msg"> </h1>
+            <h1 id="rdm"> </h1>
+            <h1 id="again"> </h1>
+        </div>
+            
+    </div>
+        <!-- Img div -->
+        <div id="guessman">
+            <!-- <img src="guessthenum.gif" alt="guess"> -->
+            <img src="guessman.jpg" alt="guessman">
+        </div>
+
+    
+</div>
+    <script src="game.js"></script>
+    <script>
+        function myreload(){
+            location.reload();
+        }
+    </script>
+</body>
+</html>

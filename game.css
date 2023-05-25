@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
+#heading{
+    text-align: center;
+    font-weight: 200; 
+    font-family: cursive; 
+    font-stretch: ultra-condensed ;
+    background-color: #cbdfcb;
+    height: 2cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#guessman{
+    text-align: right;
+    /* filter: blur(4px);
+    -webkit-filter: blur(4px); */ 
+}
+
+/* body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+
+#maindiv{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #f1f1f1; */
+    font-family: 'Lobster Two', cursive;
+}
+
+#divfid{
+    height: 10cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#fid{
+    height: 5cm;
+    padding: 1cm;
+}
+
+img{
+    opacity: .6;
+    filter: grayscale(50%);
+}
+
+button{
+    color: #344b2d;
+    background-color: #cbdfcb;
+    border-color: 1px #437A5B;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Lobster Two', cursive;
+}
+
+#refreshbutton{
+    color: #344b2d;
+    background-color: #cbdfcb;
+    border-color: 1px #437A5B;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Lobster Two', cursive;
+}
